@@ -1,6 +1,6 @@
 # 🖼️ Movement & Zoom Viewer
 
-> A lightweight, single-file image viewer with buttery-smooth momentum panning, momentum zoom, and built-in touch-up tools.
+> A lightweight, single-file image viewer with smooth momentum panning, smooth zooming, and simple built-in editing tools.
 >
 > **No installation. No dependencies. Just open the HTML file.**
 
@@ -16,56 +16,41 @@
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### 🎥 Smooth Navigation
+### Smooth Viewer
 
-- 🧈 Momentum-based panning
-- 🔍 Smooth inertia zoom
-- ⚙️ Adjustable movement smoothness & strength
-- ⚡ Tunable zoom smoothness & speed
+- Drag to move the image
+- Scroll to zoom
+- Smooth momentum for both movement and zoom
+- Adjust how fast or smooth everything feels
 
----
+### Simple Editing
 
-### 🎨 Built-in Editing
+- Brush tool
+- Rectangle tool
+- Pick colors with the eyedropper
+- Undo edits anytime
 
-- 🖌️ Brush tool
-- ⬛ Rectangle tool
-- 🎯 Eyedropper color picker
-  - Native screen picker (supported browsers)
-  - Click-to-sample fallback
-- ↩️ Unlimited undo (`Ctrl/Cmd + Z`)
+### Image Handling
 
----
+- Drag & drop images
+- Replace the current image without restarting
+- Fit the image to the window
+- Fullscreen support
 
-### 🖼️ Image Management
+### Saves Everything
 
-- 📂 Drag & drop images
-- 🔄 Replace the current image anytime
-- 📐 Fit image to screen
-- 🖥️ Fullscreen mode
+- Your image stays saved
+- Your edits stay saved
+- Your settings stay saved
 
----
+Just reopen the page and keep going.
 
-### 💾 Persistence
+### Clean Interface
 
-Everything is automatically saved using **IndexedDB**, including:
-
-- Image
-- All edits
-- Brush settings
-- Viewer settings
-- Pan & zoom state
-
-Simply reopen the page and continue where you left off.
-
----
-
-### 🌙 Modern UI
-
-- Automatic Light/Dark mode
-- Clean floating settings panel
-- Responsive interface
+- Light and dark mode
+- Simple settings window
 
 ---
 
@@ -80,10 +65,10 @@ Simply reopen the page and continue where you left off.
 
 | Action | Result |
 |---------|--------|
-| **Left Drag** | Pan image |
+| **Left Drag** | Move the image |
 | **Mouse Wheel** | Zoom |
 | **Double Click** | Open settings |
-| **Right Drag** | Pan while settings are open |
+| **Right Drag** | Move the image while settings are open |
 | **Esc** | Close settings |
 
 ---
@@ -91,12 +76,12 @@ Simply reopen the page and continue where you left off.
 # ⌨️ Shortcuts
 
 | Key | Action |
-|-----|--------|
-| **F** | Toggle Fullscreen |
-| **0** | Fit to Screen |
-| **L** | Load / Replace Image |
+|------|--------|
+| **F** | Toggle fullscreen |
+| **0** | Fit image to screen |
+| **L** | Load or replace an image |
 | **Ctrl/Cmd + Z** | Undo |
-| **Esc** | Close Settings |
+| **Esc** | Close settings |
 
 ---
 
@@ -126,27 +111,6 @@ That's it.
 
 ---
 
-# 📁 Project Goals
-
-- ✅ Single-file application
-- ✅ Offline capable
-- ✅ Zero dependencies
-- ✅ Fast startup
-- ✅ Persistent editing
-- ✅ Smooth user experience
-
----
-
-# 📸 Highlights
-
-- Momentum movement inspired by modern touch interfaces
-- Adjustable physics for both panning and zooming
-- Lightweight image annotation
-- Automatic persistence between sessions
-- Works entirely in the browser
-
----
-
 ## ⭐ If you like this project
 
-Give it a ⭐ on GitHub!
+If you found this useful, consider giving it a ⭐ on GitHub!
